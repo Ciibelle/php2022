@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário</title>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <center>Calcular Salário</center>
+        </h1>
+
+        <center><form action="calcSalario.php" method="get">
+            <label for="tValor">
+                <h1>
+                    Valor:
+                </h1>
+            </label>
+            <br>
+            <input type="text" name="txtValor" id="tValor" size="15" maxlength="15" style="font-size: 2pc; border-radius: 3px; text-align: center;" placeholder="Valor" required>
+            <br><br>
+
+            <label for="tHora">
+                <h1>
+                 Horas:
+                </h1>
+            </label>
+            <br>
+            <input type="text" name="txtHora" id="tHora" size="15" maxlength="15" style="font-size: 2pc; border-radius: 3px; text-align: center;"  placeholder="Hora" required>
+            <br><br>
+
+            <label for="tGratificacao">
+                <h1>
+                    Gratificação:
+                </h1>
+                  
+            </label>
+            <br>
+            <input type="text" name="txtGratificacao" id="tGratificacao" size="15" maxlength="15" style="font-size: 2pc; border-radius: 3px; text-align: center;" placeholder="Gratificação" required>  
+            <br><br><br>
+
+            <input type="submit" value="CALCULAR" size="15" maxlength="15" style="font-size: 2pc; border-radius: 3px; text-align: center;">
+        </form></center>
+    </div>
+</body>
+</html>
